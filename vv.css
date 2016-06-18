@@ -1,0 +1,421 @@
+body {
+	margin:0;
+	padding:0;
+}
+table td {
+	text-align:left;
+	vertical-align:top;
+}
+.lb_bg {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	margin:0;
+	color:#333;
+	text-align:center;
+	width: 100%;
+	background:url(bg-header.jpg) no-repeat top center;
+}
+img { border:none; }
+a:link, a:active, a:visited { color:#333 }
+a:hover { color:#333 }
+p { margin:12px 0 12px 0; }
+.lb_maincontent {
+	width:1020px;
+	margin:0 auto;
+	text-align:left;
+	padding:0 30px;
+}
+.lb_header {height:230px; color:#FFF; }
+.topheader.clearfix { height:90px; width: 100%; }
+.lb_logo {
+	margin:25px 150px 0 0;
+	float:left;
+}
+.contact {
+	width:250px;
+	float:right;
+	font-size:18px;
+	margin:15px 0 0 0;
+	line-height:24px;
+}
+.contact a:link, .contact a:active, .contact a:visited {color:#FFF; text-decoration:none;}
+.contact a:hover {color:#FFF; text-decoration:underline;}
+
+.phonecontact {background:url(icon-phone.png) no-repeat 0 1px; padding:0 0 0 20px;}
+.mailcontact {background:url(icon-at.png) no-repeat 0 1px; padding:0 0 0 20px;}
+
+form.lb_searchfield {
+	margin:15px 0 0 0;
+	padding:0;
+	width:300px;
+	height:60px;
+	float:left;
+}
+form.lb_searchfield .lb_search_bg {
+	border:1px solid #D3D3D3;
+	background: #FFF;
+	height:35px;
+	width:300px;
+	padding:0;
+	margin:0 0 10px 0;
+}
+form.lb_searchfield .lb_inputfield, 
+form.lb_searchfield .lb_inputfield:focus {
+	width:260px;
+	padding-left:10px;
+	border:none;
+	height:35px;
+	background:none;
+}
+.lb_search_button {
+	background:url(icon-search.png) 0 0 no-repeat;
+	width:23px;
+	height:26px;
+	border:none;
+	display: block;
+	cursor: pointer;
+	font-size:0px;
+	outline: none;
+	text-indent:-2000px;
+	line-height:50px;
+	overflow:hidden;
+	margin:6px 0 0 0;
+}
+.lb_search_button:hover {
+	background:url(icon-search.png) 0 0 no-repeat;
+	opacity:0.5;
+}
+.lb_searchfield .lb_check {
+	float:left;
+	margin:0 5px 0 0;
+}
+.lb_searchfield .lb_check { margin: -3px 5px 0 -3px\9 } /* IE Hack */
+.lb_headermenue {
+	color:#01739F;
+	padding:0;
+	text-align:left;
+	margin-left:0;
+	clear:both;
+	background:#FFF;
+	height:38px;
+}
+.lb_headermenue a:link, .lb_headermenue a:active, .lb_headermenue a:visited {
+	color:#01739F;
+	line-height:38px;
+	height:38px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+	margin:0;
+	padding:0 45px;
+}
+.lb_headermenue a:hover { color:#01739F; }
+a.nav-home {background:url(icon-home.png) 20px 11px no-repeat; width:164px;}
+a.nav-home:hover { background:url(icon-home.png) 20px 11px no-repeat; text-decoration:underline;}
+a.nav-fav {background:url(icon-favorite.png) 20px 11px no-repeat; width:184px;}
+a.nav-fav:hover { background:url(icon-favorite.png) 20px 11px no-repeat; text-decoration:underline;}
+a.nav-topseller {background:url(icon-topseller.png) 20px 10px no-repeat; width:144px;}
+a.nav-topseller:hover { background:url(icon-topseller.png) 20px 10px no-repeat; text-decoration:underline;}
+a.nav-rating {background:url(icon-rating.png) 18px 10px no-repeat; width:164px;}
+a.nav-rating:hover { background:url(icon-rating.png) 18px 10px no-repeat; text-decoration:underline;}
+
+.pull-left {float:left;}
+.pull-right {float:right;}
+
+.trusties {height:20px;	text-align:center; padding:9px 0 0 0; width: 100%;}
+.trusties span {display:inline-block; background:url(icon-check.png) 0 1px no-repeat; padding:0 18px;}
+
+.topoffer a:link, .topoffer a:active, .topoffer a:visited {font-size:32px; color:#FFF; display:block; text-align:center; text-transform:uppercase; text-decoration:none; line-height:55px; margin-top:4px;}
+.topoffer a:hover {text-decoration:underline;}
+
+.contentbox {padding:0; margin-bottom:20px; margin-top:20px;}
+.contentbox p { margin:0 0 10px 0; font-size: 16px; line-height: 20px;}
+
+.highlight { color:#CD000E; font-weight: bold; background:none; display: block; }
+
+.crossselling-headline {font-size:24px; text-align:center; color:#00729F; line-height:24px; margin:5px 0 10px 0; background:url(headline-bg.png) repeat-x;}
+.crossselling-headline span {background:#FFF; display:inline-block; padding:0 15px;}
+
+.hint {background:#FFEFB0; padding:8px; border:1px solid #FFDF5E; text-align:center; margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px;}
+.hint .smallhint {font-size: 12px; display: block; margin-top: 15px;}
+.col-1 {
+	width:410px;
+	float:left;
+}
+.col-2 {
+	width:590px;
+	margin:0 0 0 20px;
+	float:left;
+}
+.col-2 .description {
+	line-height: 18px;
+}
+h2 {
+	color:#00729F;
+	font-size:24px;
+	line-height:28px;
+	margin:0 0 10px 0;
+	padding:0;
+	font-weight:normal;
+}
+h4 {
+	color:#00729F;
+	font-size:16px;
+	line-height:18px;
+	margin:0 0 10px 0;
+	padding:0;
+	font-weight:normal;
+}
+.lb_contentarea { padding-top:20px;}
+.lb_detailimagebig_cut {
+	width:398px;
+	text-align:center;
+	height:530px;
+	border:1px solid #E8E8E8;
+	margin:0 0 20px 0;
+}
+.lb_detailimagebig_cut img {
+	width:398px;
+	height:530px;
+	margin:0;
+	border:0;
+}
+.thumbnails {width:100%;}
+.lb_thumb {
+	border:1px solid #E8E8E8;
+	width:70px;
+	height:93px;
+	display:block;
+	float:left;
+	margin:0 10px 10px 0;
+}
+.lb_lastthumb { margin-right:0; }
+.lb_thumb a {
+	width:70px;
+	height:93px;
+	display:inline;
+	border:0;
+}
+.lb_thumb img {
+	width:70px;
+	height:93px;
+	border:0;
+	margin:0;
+}
+.footer {
+	margin:0;
+	padding:25px 0;
+	width:100%;
+	background:#02749F;
+}
+.footer .footer-headline {text-transform:uppercase; margin:0; font-size:14px;}
+.footer a:link, .footer a:active, .footer a:visited {color:#FFF; text-decoration:none;}
+.footer a:hover {color:#FFF; text-decoration:underline;}
+.footer .footer-col-1 {float:left; display:block; width:310px; color:#FFF; margin-right:66px;}
+.footer .footer-col-2 {float:left; display:block; width:190px; color:#FFF; margin-right:46px;}
+.footer .footer-col-3 {float:left; display:block; width:401px; color:#FFF;}
+.footer .footer-col-3 img {margin-top:15px;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+/* ---------------------------------------------------------- */
+/* eBay-Shop Anpassungen  */
+/* ---------------------------------------------------------- */
+
+/* Layoutbreite  */
+.pagecontainer > table {
+	background:url(bg-shopheader.jpg) no-repeat top center #fff;
+	position:relative;
+}
+.pagecontainer > table > tbody > tr > td { padding-top:10px; }
+.pagecontainer > table > tbody > tr > td > table {
+	background: none;
+	width:1020px !important;
+	margin:0px auto !important;
+	text-align:left;
+	
+	border:none;
+}
+.pagecontainer .tb_v4bc td { background:#fff; }
+/* Negativer Einzug fÃ¼r Abstand zwischen erster und zweiter Contenttabelle */
+
+/*.pagecontainer > table > tbody > tr > td > table:nth-child(1) {
+	position:relative;
+	z-index:20;
+}
+.pagecontainer > table > tbody > tr > td > table:nth-child(2) {
+	position:relative;
+	z-index:10;
+}*/
+
+/* Ueberschrift linke Spalte*/
+table.v4acp {margin-top: 20px;}
+table.v4acp tr.v4acp_head td.v4title {
+	margin:0;
+	padding:0;
+}
+.v4acp .v4acp_head .v4title h2 {
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-transform:uppercase;
+	color:#FFF;
+	padding:6px 0 5px 10px;
+	width:200px;
+	display:block;
+	margin:0;
+}
+/* Ueberschrift Promoboxen Content*/
+tr.v4toppromos table.v4acpcont table.v4acp tr.v4acp_head td.v4title {
+	padding:10px 0 0 10px;
+	height:24px;
+	text-transform:uppercase;
+	color:#FFF;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+/* Boxenformatierung */
+table.v4midBox {
+	border:none;
+	padding:0;
+}
+table.v4midBox tr.v4acp_mid td.v4mid {
+	margin:0;
+	padding:0;
+}
+tr.v4footr td.v4footd {
+	background-color: #eee;
+	border: none;
+	padding: 6px 10px 5px 0;
+	text-align: right;
+}
+table#TopPromoArea tr.v4toppromos td.v4topleft table.v4acpcont, table#TopPromoArea tr.v4toppromos td.v4topright table.v4acpcont {
+	border-left: 1px solid #F3F3F3;
+	border-right: 1px solid #F3F3F3;
+	border-bottom: 1px solid #F3F3F3;
+}
+/* Anzahl Suchergebnisse und "Kostenlos" Schriftfarbe */
+.fpcc .countClass, .li td.fshp, .li td.prices span.fshp, .li td.fshp span.fshp, .li td.ship span.fshp, span.fshp { color: #CB0C11; }
+
+/* Level 1 Kategoriebaum */
+.lcat .lev1 li { margin:0; }
+ul.lev1 li {
+	background:#fff;
+	padding:8px 5px 8px 10px;
+	width:200px;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#333333;
+	display:block;
+	border-bottom:1px solid #E8E8E8;
+
+}
+ul.lev1 li:hover { background:#E8E8E8; }
+ul.lev1 {
+	color:#333;
+	margin:0;
+	padding:0;
+	width:200px;
+}
+ul.lev1 a:link {
+	color:#333333;
+	font-weight: normal;
+}
+ul.lev1 a, .lev1 a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+ul.lev1 a:active, ul.lev1 a:hover {
+	text-decoration: none;
+	color: #01739F;
+}
+/* Level 2 Kategoriebaum */
+.lcat ul.lev2 { width:180px; }
+.lcat ul.lev2 li {
+	padding:4px 0 4px 0;
+	font-size:12px;
+	margin-left:0;
+	background:none;
+	border-bottom:none;
+}
+/* Level 3 Kategoriebaum */
+.lcat ul.lev3 li {
+	padding:4px 0 4px 0;
+	font-size:12px;
+	margin-left:0;
+	background:none;
+	border-bottom:none;
+}
+/* Startseite des eBay Shops  */
+.lcat {
+	width:200px;
+	padding:0;
+	margin:0;
+}
+.lcat .ttl {
+	text-decoration: none;
+	color: #333333;
+	padding:8px 5px 8px 10px;
+	width:200px;
+	background:#E8E8E8;
+} 
+/* Formatierung ohne Link - Startseite  */
+.lcat .ttl a, .lcat .ttl a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+.lcat .ttl a:active, .lcat .ttl a:hover {
+	text-decoration: underline;
+	color: #01739F;
+}
+.lcat a.all_cats, .lcat div.link a {
+	padding:8px 10px;
+	font-size:11px;
+	width:200px;
+	color: #333333;
+}
+.lcat div.link br { height:1px; }
+/* Artikel pro Kategorie - Anzahl  */
+.lcat .cnt, .lcat ul.lev2 li .cnt {
+	color: #666666;
+	font-weight:normal;
+}
+/* Formatierung der Listenansicht - Titel  */
+.details .ttl a {
+	text-decoration: none;
+	color: #333333;
+	text-shadow: 1px 1px 0px #fff;
+}
+.details .ttl a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+.details .ttl a:active, .details .ttl a:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+.lb_footercontainer {margin:20px auto 0 auto; width: 100%; text-align: center; background:#02749F; padding:25px 0;}
+
+.lb_footercontainer .footer {
+	text-align: left;
+	margin:auto;
+	padding:0;
+	width:1020px;
+}
